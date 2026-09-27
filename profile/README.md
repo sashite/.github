@@ -15,7 +15,7 @@ around, three bots will play you, one per game: Julee (chess),
 | Layer | Where |
 | --- | --- |
 | **Protocol** — the Nostr extensions (NIPs): challenges, sessions, moves, ratings, puzzles. Public domain. | [`nostr`](https://github.com/sashite/nostr) |
-| **Rules** — the reference rule system, one deterministic interface for engines and clients | [`sashite-sanki-kernel-wasm.rs`](https://github.com/sashite/sashite-sanki-kernel-wasm.rs) |
+| **Rules** — the reference rule system, one deterministic interface for engines and clients | [`sanki-kernel-wasm.rs`](https://github.com/sashite/sanki-kernel-wasm.rs) |
 | **Engine** — move legality for chess, ōgi and xiongqi on 8×8 | [`sanki-engine.rs`](https://github.com/sashite/sanki-engine.rs) · crates.io `sashite-sanki-engine` |
 | **Session kernel** — the verdict a session's public events yield | [`sanki-session.rs`](https://github.com/sashite/sanki-session.rs) · crates.io `sashite-sanki-session` |
 | **Player** — move search; the balance study per pairing is reproducible from its `examples/` | [`sanki-player.rs`](https://github.com/sashite/sanki-player.rs) |
